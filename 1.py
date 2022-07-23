@@ -27,11 +27,26 @@
 # print(list3)
 
 # Tuples
-t1=('hello',"python",10.5,20,(30,40))
-print(t1[4])
+# t1=('hello',"python",10.5,20,(30,40))
+# t2=('hi',"pi",10.5,10.5,(60,70))
+# t3=t1+t2
+# print(t2.count(10.5))
 
 # t1[0]='Hi'  error in this as it's immutable
 
+
+
+# Set
+# set1 = set("I am a programmer")
+# print(set1)
+
+# for i in set1:
+#     print(i, end=' ')
+
+#Dictionary
+d1={125:"Comtech", 'location':"Dharwad"}
+d1['location'] = "Dharwad,Karnataka."
+print(d1[125] + " " +  d1['location'])
 
 
 
