@@ -8,24 +8,30 @@
 # print(String2)
 # print(type(String2))
 
+#Lists
+
 # list1 = [1,"Hello",'Python',10.5,[20,30,[40,50]]]
 # print(list1)
 # list1[4][2][1]="We changed the value"
 # print(list1)
+# list1 = [1,2,3]
+# list2 = [4,5,6]
+# print(list1)
+# print(list2)
+# list3 = list1 + list2
+# print(list3)
+# list3.append(7)
+# print(list3)
 
+# list3.clear()
+# print(list3)
 
+# Tuples
+t1=('hello',"python",10.5,20,(30,40))
+print(t1[4])
 
-list1 = [1,2,3]
-list2 = [4,5,6]
-print(list1)
-print(list2)
-list3 = list1 + list2
-print(list3)
-list3.append(7)
-print(list3)
+# t1[0]='Hi'  error in this as it's immutable
 
-list3.clear()
-print(list3)
 
 
 
