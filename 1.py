@@ -44,12 +44,77 @@
 #     print(i, end=' ')
 
 #Dictionary
-d1={125:"Comtech", 'location':"Dharwad"}
-d1['location'] = "Dharwad,Karnataka."
-print(d1[125] + " " +  d1['location'])
+# d1={125:"Comtech", 'location':"Dharwad"}
+# d1['location'] = "Dharwad,Karnataka."
+# print(d1[125] + " " +  d1['location'])
+
+
+# a=10
+# b=a
+# print(b)
+
+# b+=a
+# print(b)  
+#value of b is 20
+
+# b-=a
+# print(b)
+
+# b*=a
+# print(b)
+
+a=10
+b=20
+# # b<<=a
+# b=b<<a
+# print(b)
+
+# print(a is b)
+# print(id(a))
+# print(id(b))
+
+# a="Hi"
+# b=" Python"
+# print(id(a))
+# print(id(b))
+
+# a="Hello"
+# b="Python"
+# print(id(a))
+# print(id(b))
+
+# x =24
+# y=20
+
+# list =[10,20,30,40,50]
+# d1={'one':10,'two':20,30:30,40:40,50:50}
+# t1=(10,20,30,40,50)
+# t1[0]=100
+
+# if(x not in t1):
+#     print(x," is not present in list",t1)
+# else:
+#     print(x," is present in list",t1)
 
 
 
+# sum = 4 + (3 * 4 / 3 ) / 2 - 3
+# sum = 4 + (12 / 3 ) / 2 - 3
+# sum = 4 + 4 / 2 - 3
+# sum = 4 + 2 - 3
+# sum = 3
+# print(sum)
+# name = "Hemanth1"
+# age = 21
 
+# if(name == 'Hemanth' or name == 'Sagar' and age>=20):
+#     #     0           or      0        and   1  
+#     #     
+#     print("Welcome Hemanth")
+# else:
+#     print("See you Hemanth")
 
-
+sum = 2 ** 3 ** 2
+sum = 2 ** 9
+sum = 512
+print(sum)
