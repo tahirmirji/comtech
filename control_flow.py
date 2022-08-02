@@ -95,14 +95,52 @@ b=4
 
 
 
-x=11
-y=20
-list =[10,20,30,40,50]
+# x=4
+# y=20
+# # list =[10,20,30,40,50]
+# d1={1:'A',2:'B',3:'C'}
 
-if (x in list):
-    print(x," is present")
-else:
-    print(x," is not  present")
+# if (x in d1):
+#     print(x," is present")
+# else:
+#     print(x," is not  present")
+
+
+
+# name='Alex'
+# age=0
+# if name=='Alex' or name=='john' and age>=2:
+#     print("Match found")
+# else:
+#     print('Match not found')
+    
+# a = 2; b = 4; c = 6
+
+# result= a + b * c - (c / a * b - a + c) 
+# result = 2 + 4 * 6 - (6 / 2 * 4 - 2 + 6 )
+# result = 2 + 4 * 6 - (3 * 4 - 2 + 6 )
+# result = 2 + 4 * 6 - (12 - 2 + 6 )
+# result = 2 + 4 * 6 - (10 + 6 )
+# result = 2 + 4 * 6 - (10 + 6 )
+# result = 2 + 4 * 6 - (16 )
+# result = 2 + 4 * 6 - (16 )
+# result = 2 + 24 - (16 )
+# result = 26 - 16 
+# result = 10 
+
+
+
+
+#  result = 2 + 4 * 6 - 12 - 8
+#  result = 2 + 24 - 4
+#  result = 26 - 4
+#  result = 22
+# print("Result of the expression is : ",result)
+    
+print(2**3**2)
+
+
+
 
 
 
