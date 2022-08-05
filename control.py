@@ -73,14 +73,26 @@
 # mapped = zip(name, roll_no)
 # print(dict(mapped))
 
-l1 = ['alpha','beta','gama','delta']
-s1 ='Python'
-ob1 = enumerate(l1)
-ob2 = enumerate(s1)
+# l1 = ['alpha','beta','gama','delta']
+# s1 ='Python'
+# ob1 = enumerate(l1)
+# ob2 = enumerate(s1)
 
-print(type(ob1))
-print(dict(ob1))
+# print(type(ob1))
+# print(dict(ob1))
 
 
-print(list(enumerate(l1,2)))
+# print(list(enumerate(l1,2)))
 
+
+
+def add(num1: int, num2: int) -> int:
+    """Add two numbers"""
+    num3 = num1 + num2
+ 
+    return num3
+ 
+# Driver code
+num1, num2 = 5, 15
+ans = add(num1, num2)
+print("The addition of ",num1," and ",num2," results ",ans")
